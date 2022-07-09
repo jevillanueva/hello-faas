@@ -1,0 +1,9 @@
+provider:
+  name: openfaas
+  gateway: https://faas.jevillanueva.dev/
+
+functions:
+  hello-python:
+    lang: python
+    handler: ./hello
+    image: jevillanueva/hello-python
